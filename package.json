@@ -9,7 +9,8 @@
     "start": "nodemon index.js"
   },
   "engines": {
-    "node": "10.22.1"
+    "node": "10.22.x",
+    "npm": "6.x"
   },
   "author": "abel@mit.edu",
   "license": "MIT",
@@ -30,6 +31,6 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "http-server": "^14.0.0",
-    "nodemon": "~2.0.12"
+    "nodemon": "2.0.12"
   }
 }
